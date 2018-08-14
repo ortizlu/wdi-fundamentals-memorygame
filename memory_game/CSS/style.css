@@ -1,0 +1,63 @@
+body {
+  text-align: center;
+  font-family: "Raleway", arial, helvetica;
+  margin: 0;
+  }
+
+a {
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+h1, a {
+  text-transform: uppercase;
+}
+
+header {
+  background-color: #f15B31;
+  color: white;
+  padding: 30px 20px;
+}
+
+nav {
+  background-color: #00A6B3;
+  color: white;
+  padding: 20px 0;
+}
+
+nav a {
+  margin: 0 20px;
+  color: white;
+}
+
+main {
+  width: 850px;
+  margin: 35px auto;
+}
+
+h1 {
+  color: white;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 45px;
+  margin: 0;
+}
+
+h2 {
+  color: #0d2c40;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+p {
+  font-family: "Droid Serif", monospace;
+  line-height: 26px;
+  font-size: 18px;
+}
+
+img {
+  margin: 40px 8px 0 8px;
+}
