@@ -9,6 +9,11 @@ a {
   letter-spacing: 1px;
   font-weight: 600;
   font-size: 18px;
+  border-bottom: 2px solid transparent;
+}
+
+a:hover {
+  border-bottom: 2px solid white;
 }
 
 h1, a {
@@ -61,3 +66,41 @@ p {
 img {
   margin: 40px 8px 0 8px;
 }
+
+footer {
+  text-transform: uppercase;
+  padding: 0 20px;
+  background-color: #0D2C40;
+  color: white;
+  font-size: 14px;
+  letter-spacing: .08em;
+  font-weight: 500;
+  position: absolute; 
+  left: 0 ; right: 0; bottom: 0; 
+  height: 62px;
+}
+
+
+.copyright {
+  float: left;
+}
+
+.message {
+  float: right;
+}
+
+/* CLEARFIX */
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+  }
+
+  .name {
+    color: #F15B31;
+    font-weight: 700;
+  }
