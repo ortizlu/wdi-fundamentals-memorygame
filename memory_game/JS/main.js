@@ -22,17 +22,12 @@ var cards = [{
 var cardsInPlay = [];
 var score = 0;
 
-//reset
-var btn = document.querySelector("button");
-btn.addEventListener('click', function() {
-  resetBoard();
-});
-
 //set score in title
 //get span tag
 var currentScore = document.querySelector('span');
 //set the score to score
 currentScore.textContent = score;
+
 
 function flipCard() {
   //this refers to the cardElement inside createBoard that calls flipCard.

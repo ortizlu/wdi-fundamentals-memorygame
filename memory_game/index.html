@@ -9,7 +9,7 @@
 
   <body>
     <header>
-      <h1>Memory Game (Score: <span></span>)</h1>
+      <h1>Memory Game (Score: <span id="user-score"></span>)</h1>
     </header>
     
     <nav>
@@ -25,7 +25,7 @@
       <div id="game-board" class="board clearfix">
       </div>
 
-      <button>reset</button>
+      <button>reset <br> <span class="hold-message">(Hold button to reset score)</span></button>
     </main>
 
     <footer class="clearfix">
@@ -34,6 +34,7 @@
     </footer>
 
     <script src="js/main.js"></script>
+    <script src="js/reset.js"></script>
 
   </body>
 
