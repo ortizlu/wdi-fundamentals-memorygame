@@ -1,3 +1,5 @@
+// FROM A PRESS AND HOLD EFFECT FOUND ON https://www.kirupa.com/html5/press_and_hold.htm
+
 var item = document.querySelector("button");
  
 var timerID;
